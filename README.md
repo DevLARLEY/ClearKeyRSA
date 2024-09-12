@@ -1,5 +1,6 @@
 # ClearKeyRSA
-Decrypts RSA encrypted ClearKey responses
+Decrypts RSA encrypted ClearKey responses \
+Explanation: [https://larley.dev/notes/clearkey_rsa](https://larley.dev/notes/clearkey_rsa)
 
 ## Requirements
 + [Python 3.12](https://www.python.org/)
