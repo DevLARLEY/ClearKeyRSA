@@ -19,7 +19,7 @@ class ClearKey_RSA:
 
     def export_spki(self) -> str:
         spki = self.public_key.export_key(format='DER')
-        return base64.b64encode(spki).decode('utf-8')
+        return base64.urlsafe_b64encode(spki).decode('utf-8')
 
     @staticmethod
     def pad_b64_to_bytes(encoded_str):
